@@ -1,8 +1,6 @@
 import React from "react";
+import { StyleSheet, } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image } from 'react-native';
-import { colors } from "./src/theme/colors";
-import { spacing } from "./src/theme/spacing";
 import { useFonts, Inter_900Black } from "@expo-google-fonts/inter";
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -23,11 +21,14 @@ export default function App() {
   }
 
   return (
-    <NavigationContainer>
+    <>
+    <NavigationContainer style={styles.container}>
       <Stack.Navigator screenOptions={{headerShown: false}}>
         <Stack.Screen name="blogs" component={blogs} />
       </Stack.Navigator>
     </NavigationContainer>
+    <StatusBar style="Black" />
+    </>
   );
 }
 
@@ -37,13 +38,4 @@ const styles = StyleSheet.create({
     fontFamily: 'Inter_900Black',
     
   },
-  sozib: {
-    backgroundColor: '#000',
-    fontSize: 30,
-    color: '#fff',
-    textAlign: 'center'
-    
-  },
-  
-
 });

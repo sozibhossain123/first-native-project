@@ -1,7 +1,6 @@
 import { StyleSheet, Image, Text, View, ScrollView, ImageBackground } from 'react-native'
 import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { colors } from '../theme/colors';
 import { AntDesign } from '@expo/vector-icons';
 import { Feather } from '@expo/vector-icons';
 
@@ -31,8 +30,8 @@ export default function blogs() {
                         <Text style={styles.blogsData}>20 Apr, 2022</Text>
                         <Text style={styles.blogstext}>How Long Does It Take To Build A Salon Booking App?</Text>
                         <View style={styles.blogsIcon}>
-                            <Text style={styles.blogsEyeIcone}> <AntDesign name="eye" size={15} color="black" /> 20</Text>
-                            <Text style={styles.blogsMessageIcone}>  <Feather name="message-circle" size={15} color="black" /> 25</Text>
+                            <Text style={styles.blogsEyeIcone}> <AntDesign name="eye" size={15} color="red" /> 20</Text>
+                            <Text style={styles.blogsMessageIcone}>  <Feather name="message-circle" size={15} color="red" /> 25</Text>
                         </View>
                     </View>
                 </View>
@@ -44,8 +43,8 @@ export default function blogs() {
                         <Text style={styles.blogsData}>20 Apr, 2022</Text>
                         <Text style={styles.blogstext}>How Long Does It Take To Build A Salon Booking App?</Text>
                         <View style={styles.blogsIcon}>
-                            <Text style={styles.blogsEyeIcone}> <AntDesign name="eye" size={15} color="black" /> 20</Text>
-                            <Text style={styles.blogsMessageIcone}>  <Feather name="message-circle" size={15} color="black" /> 25</Text>
+                            <Text style={styles.blogsEyeIcone}> <AntDesign name="eye" size={15} color="red" /> 20</Text>
+                            <Text style={styles.blogsMessageIcone}>  <Feather name="message-circle" size={15} color="red" /> 25</Text>
                         </View>
                     </View>
                 </View>
@@ -57,8 +56,8 @@ export default function blogs() {
                         <Text style={styles.blogsData}>20 Apr, 2022</Text>
                         <Text style={styles.blogstext}>How Long Does It Take To Build A Salon Booking App?</Text>
                         <View style={styles.blogsIcon}>
-                            <Text style={styles.blogsEyeIcone}> <AntDesign name="eye" size={15} color="black" /> 20</Text>
-                            <Text style={styles.blogsMessageIcone}>  <Feather name="message-circle" size={15} color="black" /> 25</Text>
+                            <Text style={styles.blogsEyeIcone}> <AntDesign name="eye" size={15} color="red" /> 20</Text>
+                            <Text style={styles.blogsMessageIcone}>  <Feather name="message-circle" size={15} color="red" /> 25</Text>
                         </View>
                     </View>
                 </View>
@@ -70,8 +69,8 @@ export default function blogs() {
                         <Text style={styles.blogsData}>20 Apr, 2022</Text>
                         <Text style={styles.blogstext}>How Long Does It Take To Build A Salon Booking App?</Text>
                         <View style={styles.blogsIcon}>
-                            <Text style={styles.blogsEyeIcone}> <AntDesign name="eye" size={15} color="black" /> 20</Text>
-                            <Text style={styles.blogsMessageIcone}>  <Feather name="message-circle" size={15} color="black" /> 25</Text>
+                            <Text style={styles.blogsEyeIcone}> <AntDesign name="eye" size={15} color="red" /> 20</Text>
+                            <Text style={styles.blogsMessageIcone}>  <Feather name="message-circle" size={15} color="red" /> 25</Text>
                         </View>
                     </View>
                 </View>
@@ -83,8 +82,8 @@ export default function blogs() {
                         <Text style={styles.blogsData}>20 Apr, 2022</Text>
                         <Text style={styles.blogstext}>How Long Does It Take To Build A Salon Booking App?</Text>
                         <View style={styles.blogsIcon}>
-                            <Text style={styles.blogsEyeIcone}> <AntDesign name="eye" size={15} color="black" /> 20</Text>
-                            <Text style={styles.blogsMessageIcone}>  <Feather name="message-circle" size={15} color="black" /> 25</Text>
+                            <Text style={styles.blogsEyeIcone}> <AntDesign name="eye" size={15} color="red" /> 20</Text>
+                            <Text style={styles.blogsMessageIcone}>  <Feather name="message-circle" size={15} color="red" /> 25</Text>
                         </View>
                     </View>
                 </View>
@@ -96,8 +95,8 @@ export default function blogs() {
                         <Text style={styles.blogsData}>20 Apr, 2022</Text>
                         <Text style={styles.blogstext}>How Long Does It Take To Build A Salon Booking App?</Text>
                         <View style={styles.blogsIcon}>
-                            <Text style={styles.blogsEyeIcone}> <AntDesign name="eye" size={15} color="black" /> 20</Text>
-                            <Text style={styles.blogsMessageIcone}>  <Feather name="message-circle" size={15} color="black" /> 25</Text>
+                            <Text style={styles.blogsEyeIcone}> <AntDesign name="eye" size={15} color="red" /> 20</Text>
+                            <Text style={styles.blogsMessageIcone}>  <Feather name="message-circle" size={15} color="red" /> 25</Text>
                         </View>
                     </View>
                 </View>
@@ -109,8 +108,8 @@ export default function blogs() {
                         <Text style={styles.blogsData}>20 Apr, 2022</Text>
                         <Text style={styles.blogstext}>How Long Does It Take To Build A Salon Booking App?</Text>
                         <View style={styles.blogsIcon}>
-                            <Text style={styles.blogsEyeIcone}> <AntDesign name="eye" size={15} color="black" /> 20</Text>
-                            <Text style={styles.blogsMessageIcone}>  <Feather name="message-circle" size={15} color="black" /> 25</Text>
+                            <Text style={styles.blogsEyeIcone}> <AntDesign name="eye" size={15} color="red" /> 20</Text>
+                            <Text style={styles.blogsMessageIcone}>  <Feather name="message-circle" size={15} color="red" /> 25</Text>
                         </View>
                     </View>
                 </View>
@@ -125,7 +124,7 @@ const styles = StyleSheet.create({
       flex: 1,
       
     },
-    // blogstopIconArea
+    // blogstopBannerIconArea
     image: {
         width: 375,
         height: 137,
@@ -137,7 +136,12 @@ const styles = StyleSheet.create({
     },
     blogstoptext: {
         color: '#fff',
+        fontSize: 20,
+        lineHeight: 26,
     },
+    // blogstopBannerIconArea end
+
+    // blogs area
     blogsArea: {
         flex: 1,
         flexDirection: 'row',
@@ -176,6 +180,6 @@ const styles = StyleSheet.create({
         lineHeight: 15,
     }
     
-    
+    // blogs area end
     
 });
