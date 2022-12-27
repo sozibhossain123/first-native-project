@@ -22,12 +22,12 @@ export default function App() {
 
   return (
     <>
-    <NavigationContainer style={styles.container}>
-      <Stack.Navigator screenOptions={{headerShown: false}}>
-        <Stack.Screen name="blogs" component={blogs} />
-      </Stack.Navigator>
-    </NavigationContainer>
-    <StatusBar style="Black" />
+      <NavigationContainer style={styles.container}>
+        <Stack.Navigator screenOptions={{headerShown: false}}>
+          <Stack.Screen name="blogs" component={blogs} />
+        </Stack.Navigator>
+      </NavigationContainer>
+      <StatusBar style="#fff" />
     </>
   );
 }
