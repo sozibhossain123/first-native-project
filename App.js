@@ -5,6 +5,7 @@ import { useFonts, Inter_900Black } from "@expo-google-fonts/inter";
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import blogs from "./src/screens/blogs";
+import FAQ from "./src/screens/FAQ";
 
 
 
@@ -24,7 +25,8 @@ export default function App() {
     <>
       <NavigationContainer style={styles.container}>
         <Stack.Navigator screenOptions={{headerShown: false}}>
-          <Stack.Screen name="blogs" component={blogs} />
+          {/* <Stack.Screen name="blogs" component={blogs} /> */}
+          <Stack.Screen name="blogs" component={FAQ} />
         </Stack.Navigator>
       </NavigationContainer>
       <StatusBar style="#fff" />

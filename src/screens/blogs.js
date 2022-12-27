@@ -1,4 +1,4 @@
-import { StyleSheet, Image, Text, View, ScrollView, ImageBackground } from 'react-native'
+import { StyleSheet, Image, Text, View, ScrollView, Pressable } from 'react-native'
 import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { AntDesign } from '@expo/vector-icons';
@@ -10,20 +10,27 @@ import { Feather } from '@expo/vector-icons';
 export default function blogs() {
   return (
     < >
+
+        {/* ---Header--- */}
         <View style={styles.header}>
             <View style={styles.headerImageArea}>
                 <Image style={styles.headerLeftImage} source={require('../../assets/ellipse-50.png')} />
                 <Image style={styles.headerRightImage} source={require('../../assets/ellipse-49.png')} />
             </View>
             <View style={styles.blogstopIconArea}>
-                <AntDesign name="arrowleft" size={24} color="white" style={styles.blogsBackIcon} />
+                <Pressable>
+                    <AntDesign name="arrowleft" size={24} color="white" style={styles.blogsBackIcon} />
+                </Pressable>
+                
                 <Text style={styles.blogstoptext}>Blogs</Text>
-                <AntDesign name="close" size={24} color="white" style={styles.blogsXIcon} />
+                <Pressable>
+                    <AntDesign name="close" size={24} color="white" style={styles.blogsXIcon} />
+                </Pressable>
             </View>
         </View>
+        {/* ---Header end--- */}
 
         <SafeAreaView style={styles.container}>
-            
             <ScrollView>
                 <View style={styles.blogsArea}>
                     <View>
@@ -127,9 +134,9 @@ const styles = StyleSheet.create({
       flex: 1,
       
     },
-    // blogstopBannerIconArea
+    // blogstopHeaderIconArea
     header: {
-        backgroundColor: 'linear-gradient(179.91deg, #0C1740 0.07%, #3B4DB9 131.92%)',
+        backgroundColor: '#3B4DB9',
         width: 375,
         height: 137,
         
@@ -175,7 +182,7 @@ const styles = StyleSheet.create({
         left: '900%',
         top: '5%',
     },
-    // blogstopBannerIconArea end
+    // blogstopHeaderIconArea end
 
     // blogs area
     blogsArea: {
